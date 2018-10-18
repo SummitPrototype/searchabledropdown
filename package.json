@@ -1,0 +1,25 @@
+{
+  "name": "Probeersel",
+  "version": "1.0.0",
+  "description": "Probeersel",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap-select": "^1.13.3",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "nuxt": "^2.2.0",
+    "sweetalert2": "^7.15.1",
+    "vue": "^2.5.17"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate"
+  },
+  "author": "JopBB",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^5.1.4"
+  }
+}
