@@ -27,7 +27,7 @@ module.exports = {
     ],
     link: [
        { rel:'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'},
-       { rel:'stylesheet', href:'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'},
+       { rel:'stylesheet', href:'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'},
        { rel:'stylesheet', href:'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css'}
 
     ]
