@@ -18,7 +18,6 @@
       <option>Activiteitjeeeee6</option>
       <option>Activiteitjeeeee7</option>
       <option>Activiteitjeeeee8</option>
-      <option>Activiteitjeeeee9</option>
     </select>
 
   </div>
