@@ -118,13 +118,13 @@ export async function setContext(app, context) {
   if (!app.context) {
     app.context = {
       isStatic: process.static,
-      isDev: true,
+      isDev: false,
       isHMR: false,
       app,
       
       payload: context.payload,
       error: context.error,
-      base: '/',
+      base: '/searchabledropdown/',
       env: {}
     }
     // Only set once
